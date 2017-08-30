@@ -72,7 +72,9 @@ You can use this plug-in -------> [getterMake-Xcode](https://github.com/ame017/g
 
 ## Trouble Shooting
 If your Xcode is 8.0+.<br>
-Please install macOS Sierra (version 10.12) if your macOS is 10.11.
+Please install macOS Sierra (version 10.12) if your macOS is 10.11.<br>
+
+Now swift version not provide.May come soon.<br>
 
 ## Special thanks to
 [hackxhj](https://github.com/hackxhj) Give me a lot of inspiration to finish this plug-in
