@@ -674,6 +674,7 @@
 				91685CE11F56827500F53EE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91685CE21F56827500F53EE1 /* Build configuration list for PBXNativeTarget "AMEGetterMakerTests" */ = {
 			isa = XCConfigurationList;
@@ -682,6 +683,7 @@
 				91685CE41F56827500F53EE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91685CE51F56827500F53EE1 /* Build configuration list for PBXNativeTarget "AMEGetterMakerUITests" */ = {
 			isa = XCConfigurationList;
@@ -690,6 +692,7 @@
 				91685CE71F56827500F53EE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91685CFD1F5682C400F53EE1 /* Build configuration list for PBXNativeTarget "GetterMaker" */ = {
 			isa = XCConfigurationList;
@@ -698,6 +701,7 @@
 				91685CFF1F5682C400F53EE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

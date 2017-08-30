@@ -7,7 +7,6 @@
 //
 
 #import "AMEGetterMaker.h"
-#import <AppKit/AppKit.h>
 
 @implementation AMEGetterMaker
 
@@ -57,9 +56,13 @@
     NSRange rangLeft=[sourceStr rangeOfString:@")"];
     NSRange rangRight=[sourceStr rangeOfString:@"*"];
     
-    if(rangLeft.location==NSNotFound||rangRight.location==NSNotFound)
-    {
+    if(rangLeft.location==NSNotFound||rangRight.location==NSNotFound){
         NSLog(@"错误的格式或者对象");
+        return @"";
+    }
+    //不输出xib
+    if([sourceStr rangeOfString:@"IBOutlet"].location != NSNotFound){
+        NSLog(@"xib");
         return @"";
     }
     //类型名
