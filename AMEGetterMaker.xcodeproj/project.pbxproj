@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91685CBD1F56827500F53EE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685CBC1F56827500F53EE1 /* AppDelegate.m */; };
+		91685CC01F56827500F53EE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685CBF1F56827500F53EE1 /* main.m */; };
+		91685CC21F56827500F53EE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91685CC11F56827500F53EE1 /* Assets.xcassets */; };
+		91685CC51F56827500F53EE1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91685CC31F56827500F53EE1 /* MainMenu.xib */; };
+		91685CD01F56827500F53EE1 /* AMEGetterMakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685CCF1F56827500F53EE1 /* AMEGetterMakerTests.m */; };
+		91685CDB1F56827500F53EE1 /* AMEGetterMakerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685CDA1F56827500F53EE1 /* AMEGetterMakerUITests.m */; };
+		91685CEF1F5682C400F53EE1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91685CEE1F5682C400F53EE1 /* Cocoa.framework */; };
+		91685CF51F5682C400F53EE1 /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685CF41F5682C400F53EE1 /* SourceEditorExtension.m */; };
+		91685CF81F5682C400F53EE1 /* SourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685CF71F5682C400F53EE1 /* SourceEditorCommand.m */; };
+		91685CFC1F5682C400F53EE1 /* GetterMaker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 91685CEC1F5682C400F53EE1 /* GetterMaker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		91685D041F56875A00F53EE1 /* AMEGetterMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685D031F56875A00F53EE1 /* AMEGetterMaker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91685CCC1F56827500F53EE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91685CB01F56827500F53EE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91685CB71F56827500F53EE1;
+			remoteInfo = AMEGetterMaker;
+		};
+		91685CD71F56827500F53EE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91685CB01F56827500F53EE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91685CB71F56827500F53EE1;
+			remoteInfo = AMEGetterMaker;
+		};
+		91685CFA1F5682C400F53EE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91685CB01F56827500F53EE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91685CEB1F5682C400F53EE1;
+			remoteInfo = GetterMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		91685D001F5682C400F53EE1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				91685CFC1F5682C400F53EE1 /* GetterMaker.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		91685CB81F56827500F53EE1 /* AMEGetterMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMEGetterMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91685CBB1F56827500F53EE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		91685CBC1F56827500F53EE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		91685CBF1F56827500F53EE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91685CC11F56827500F53EE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91685CC41F56827500F53EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		91685CC61F56827500F53EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91685CCB1F56827500F53EE1 /* AMEGetterMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMEGetterMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91685CCF1F56827500F53EE1 /* AMEGetterMakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMEGetterMakerTests.m; sourceTree = "<group>"; };
+		91685CD11F56827500F53EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91685CD61F56827500F53EE1 /* AMEGetterMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMEGetterMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91685CDA1F56827500F53EE1 /* AMEGetterMakerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMEGetterMakerUITests.m; sourceTree = "<group>"; };
+		91685CDC1F56827500F53EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91685CEC1F5682C400F53EE1 /* GetterMaker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GetterMaker.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		91685CEE1F5682C400F53EE1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		91685CF21F5682C400F53EE1 /* GetterMaker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GetterMaker.entitlements; sourceTree = "<group>"; };
+		91685CF31F5682C400F53EE1 /* SourceEditorExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorExtension.h; sourceTree = "<group>"; };
+		91685CF41F5682C400F53EE1 /* SourceEditorExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorExtension.m; sourceTree = "<group>"; };
+		91685CF61F5682C400F53EE1 /* SourceEditorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorCommand.h; sourceTree = "<group>"; };
+		91685CF71F5682C400F53EE1 /* SourceEditorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorCommand.m; sourceTree = "<group>"; };
+		91685CF91F5682C400F53EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91685D021F56875A00F53EE1 /* AMEGetterMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMEGetterMaker.h; sourceTree = "<group>"; };
+		91685D031F56875A00F53EE1 /* AMEGetterMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMEGetterMaker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91685CB51F56827500F53EE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91685CC81F56827500F53EE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91685CD31F56827500F53EE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91685CE91F5682C400F53EE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91685CEF1F5682C400F53EE1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91685CAF1F56827500F53EE1 = {
+			isa = PBXGroup;
+			children = (
+				91685CBA1F56827500F53EE1 /* AMEGetterMaker */,
+				91685CCE1F56827500F53EE1 /* AMEGetterMakerTests */,
+				91685CD91F56827500F53EE1 /* AMEGetterMakerUITests */,
+				91685CF01F5682C400F53EE1 /* GetterMaker */,
+				91685CED1F5682C400F53EE1 /* Frameworks */,
+				91685CB91F56827500F53EE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91685CB91F56827500F53EE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91685CB81F56827500F53EE1 /* AMEGetterMaker.app */,
+				91685CCB1F56827500F53EE1 /* AMEGetterMakerTests.xctest */,
+				91685CD61F56827500F53EE1 /* AMEGetterMakerUITests.xctest */,
+				91685CEC1F5682C400F53EE1 /* GetterMaker.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91685CBA1F56827500F53EE1 /* AMEGetterMaker */ = {
+			isa = PBXGroup;
+			children = (
+				91685CBB1F56827500F53EE1 /* AppDelegate.h */,
+				91685CBC1F56827500F53EE1 /* AppDelegate.m */,
+				91685CC11F56827500F53EE1 /* Assets.xcassets */,
+				91685CC31F56827500F53EE1 /* MainMenu.xib */,
+				91685CC61F56827500F53EE1 /* Info.plist */,
+				91685CBE1F56827500F53EE1 /* Supporting Files */,
+			);
+			path = AMEGetterMaker;
+			sourceTree = "<group>";
+		};
+		91685CBE1F56827500F53EE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91685CBF1F56827500F53EE1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91685CCE1F56827500F53EE1 /* AMEGetterMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				91685CCF1F56827500F53EE1 /* AMEGetterMakerTests.m */,
+				91685CD11F56827500F53EE1 /* Info.plist */,
+			);
+			path = AMEGetterMakerTests;
+			sourceTree = "<group>";
+		};
+		91685CD91F56827500F53EE1 /* AMEGetterMakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91685CDA1F56827500F53EE1 /* AMEGetterMakerUITests.m */,
+				91685CDC1F56827500F53EE1 /* Info.plist */,
+			);
+			path = AMEGetterMakerUITests;
+			sourceTree = "<group>";
+		};
+		91685CED1F5682C400F53EE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91685CEE1F5682C400F53EE1 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91685CF01F5682C400F53EE1 /* GetterMaker */ = {
+			isa = PBXGroup;
+			children = (
+				91685D011F56872500F53EE1 /* AMEGetterMakerTools */,
+				91685CF31F5682C400F53EE1 /* SourceEditorExtension.h */,
+				91685CF41F5682C400F53EE1 /* SourceEditorExtension.m */,
+				91685CF61F5682C400F53EE1 /* SourceEditorCommand.h */,
+				91685CF71F5682C400F53EE1 /* SourceEditorCommand.m */,
+				91685CF91F5682C400F53EE1 /* Info.plist */,
+				91685CF11F5682C400F53EE1 /* Supporting Files */,
+			);
+			path = GetterMaker;
+			sourceTree = "<group>";
+		};
+		91685CF11F5682C400F53EE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91685CF21F5682C400F53EE1 /* GetterMaker.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91685D011F56872500F53EE1 /* AMEGetterMakerTools */ = {
+			isa = PBXGroup;
+			children = (
+				91685D021F56875A00F53EE1 /* AMEGetterMaker.h */,
+				91685D031F56875A00F53EE1 /* AMEGetterMaker.m */,
+			);
+			path = AMEGetterMakerTools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91685CB71F56827500F53EE1 /* AMEGetterMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91685CDF1F56827500F53EE1 /* Build configuration list for PBXNativeTarget "AMEGetterMaker" */;
+			buildPhases = (
+				91685CB41F56827500F53EE1 /* Sources */,
+				91685CB51F56827500F53EE1 /* Frameworks */,
+				91685CB61F56827500F53EE1 /* Resources */,
+				91685D001F5682C400F53EE1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91685CFB1F5682C400F53EE1 /* PBXTargetDependency */,
+			);
+			name = AMEGetterMaker;
+			productName = AMEGetterMaker;
+			productReference = 91685CB81F56827500F53EE1 /* AMEGetterMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91685CCA1F56827500F53EE1 /* AMEGetterMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91685CE21F56827500F53EE1 /* Build configuration list for PBXNativeTarget "AMEGetterMakerTests" */;
+			buildPhases = (
+				91685CC71F56827500F53EE1 /* Sources */,
+				91685CC81F56827500F53EE1 /* Frameworks */,
+				91685CC91F56827500F53EE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91685CCD1F56827500F53EE1 /* PBXTargetDependency */,
+			);
+			name = AMEGetterMakerTests;
+			productName = AMEGetterMakerTests;
+			productReference = 91685CCB1F56827500F53EE1 /* AMEGetterMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91685CD51F56827500F53EE1 /* AMEGetterMakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91685CE51F56827500F53EE1 /* Build configuration list for PBXNativeTarget "AMEGetterMakerUITests" */;
+			buildPhases = (
+				91685CD21F56827500F53EE1 /* Sources */,
+				91685CD31F56827500F53EE1 /* Frameworks */,
+				91685CD41F56827500F53EE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91685CD81F56827500F53EE1 /* PBXTargetDependency */,
+			);
+			name = AMEGetterMakerUITests;
+			productName = AMEGetterMakerUITests;
+			productReference = 91685CD61F56827500F53EE1 /* AMEGetterMakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		91685CEB1F5682C400F53EE1 /* GetterMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91685CFD1F5682C400F53EE1 /* Build configuration list for PBXNativeTarget "GetterMaker" */;
+			buildPhases = (
+				91685CE81F5682C400F53EE1 /* Sources */,
+				91685CE91F5682C400F53EE1 /* Frameworks */,
+				91685CEA1F5682C400F53EE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetterMaker;
+			productName = GetterMaker;
+			productReference = 91685CEC1F5682C400F53EE1 /* GetterMaker.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91685CB01F56827500F53EE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = AME;
+				TargetAttributes = {
+					91685CB71F56827500F53EE1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S8RBTQ8YQ5;
+						ProvisioningStyle = Automatic;
+					};
+					91685CCA1F56827500F53EE1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S8RBTQ8YQ5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 91685CB71F56827500F53EE1;
+					};
+					91685CD51F56827500F53EE1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S8RBTQ8YQ5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 91685CB71F56827500F53EE1;
+					};
+					91685CEB1F5682C400F53EE1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S8RBTQ8YQ5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 91685CB31F56827500F53EE1 /* Build configuration list for PBXProject "AMEGetterMaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91685CAF1F56827500F53EE1;
+			productRefGroup = 91685CB91F56827500F53EE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91685CB71F56827500F53EE1 /* AMEGetterMaker */,
+				91685CCA1F56827500F53EE1 /* AMEGetterMakerTests */,
+				91685CD51F56827500F53EE1 /* AMEGetterMakerUITests */,
+				91685CEB1F5682C400F53EE1 /* GetterMaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91685CB61F56827500F53EE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91685CC21F56827500F53EE1 /* Assets.xcassets in Resources */,
+				91685CC51F56827500F53EE1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91685CC91F56827500F53EE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91685CD41F56827500F53EE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91685CEA1F5682C400F53EE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91685CB41F56827500F53EE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91685CC01F56827500F53EE1 /* main.m in Sources */,
+				91685CBD1F56827500F53EE1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91685CC71F56827500F53EE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91685CD01F56827500F53EE1 /* AMEGetterMakerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91685CD21F56827500F53EE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91685CDB1F56827500F53EE1 /* AMEGetterMakerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91685CE81F5682C400F53EE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91685CF51F5682C400F53EE1 /* SourceEditorExtension.m in Sources */,
+				91685CF81F5682C400F53EE1 /* SourceEditorCommand.m in Sources */,
+				91685D041F56875A00F53EE1 /* AMEGetterMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91685CCD1F56827500F53EE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91685CB71F56827500F53EE1 /* AMEGetterMaker */;
+			targetProxy = 91685CCC1F56827500F53EE1 /* PBXContainerItemProxy */;
+		};
+		91685CD81F56827500F53EE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91685CB71F56827500F53EE1 /* AMEGetterMaker */;
+			targetProxy = 91685CD71F56827500F53EE1 /* PBXContainerItemProxy */;
+		};
+		91685CFB1F5682C400F53EE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91685CEB1F5682C400F53EE1 /* GetterMaker */;
+			targetProxy = 91685CFA1F5682C400F53EE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91685CC31F56827500F53EE1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91685CC41F56827500F53EE1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91685CDD1F56827500F53EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		91685CDE1F56827500F53EE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		91685CE01F56827500F53EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S8RBTQ8YQ5;
+				INFOPLIST_FILE = AMEGetterMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AME.AMEGetterMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		91685CE11F56827500F53EE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S8RBTQ8YQ5;
+				INFOPLIST_FILE = AMEGetterMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AME.AMEGetterMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		91685CE31F56827500F53EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S8RBTQ8YQ5;
+				INFOPLIST_FILE = AMEGetterMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AME.AMEGetterMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMEGetterMaker.app/Contents/MacOS/AMEGetterMaker";
+			};
+			name = Debug;
+		};
+		91685CE41F56827500F53EE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S8RBTQ8YQ5;
+				INFOPLIST_FILE = AMEGetterMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AME.AMEGetterMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMEGetterMaker.app/Contents/MacOS/AMEGetterMaker";
+			};
+			name = Release;
+		};
+		91685CE61F56827500F53EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S8RBTQ8YQ5;
+				INFOPLIST_FILE = AMEGetterMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AME.AMEGetterMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AMEGetterMaker;
+			};
+			name = Debug;
+		};
+		91685CE71F56827500F53EE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S8RBTQ8YQ5;
+				INFOPLIST_FILE = AMEGetterMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AME.AMEGetterMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AMEGetterMaker;
+			};
+			name = Release;
+		};
+		91685CFE1F5682C400F53EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = GetterMaker/GetterMaker.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S8RBTQ8YQ5;
+				INFOPLIST_FILE = GetterMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AME.AMEGetterMaker.GetterMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		91685CFF1F5682C400F53EE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = GetterMaker/GetterMaker.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S8RBTQ8YQ5;
+				INFOPLIST_FILE = GetterMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AME.AMEGetterMaker.GetterMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91685CB31F56827500F53EE1 /* Build configuration list for PBXProject "AMEGetterMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91685CDD1F56827500F53EE1 /* Debug */,
+				91685CDE1F56827500F53EE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91685CDF1F56827500F53EE1 /* Build configuration list for PBXNativeTarget "AMEGetterMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91685CE01F56827500F53EE1 /* Debug */,
+				91685CE11F56827500F53EE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91685CE21F56827500F53EE1 /* Build configuration list for PBXNativeTarget "AMEGetterMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91685CE31F56827500F53EE1 /* Debug */,
+				91685CE41F56827500F53EE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91685CE51F56827500F53EE1 /* Build configuration list for PBXNativeTarget "AMEGetterMakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91685CE61F56827500F53EE1 /* Debug */,
+				91685CE71F56827500F53EE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91685CFD1F5682C400F53EE1 /* Build configuration list for PBXNativeTarget "GetterMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91685CFE1F5682C400F53EE1 /* Debug */,
+				91685CFF1F5682C400F53EE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91685CB01F56827500F53EE1 /* Project object */;
+}
