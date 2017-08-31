@@ -2,6 +2,8 @@
 A lazyload getter maker without resign<br>
 ![](https://github.com/ame017/AMEGetterMaker/blob/master/intro/introduce.png?raw=true)
 
+Now support Objective-c and swift
+
 ## Version update
 * 1.1.0
   <br>Add support for swift(test function)
@@ -74,20 +76,20 @@ var button2 = UIButton()
 ```
 ↓↓↓
 ```
-	lazy var button : UIButton = {
-		let object = UIButton()
-		return object
-	}()
+lazy var button : UIButton = {
+	let object = UIButton()
+	return object
+}()
 
-	lazy var button1 : UIButton = {
-		let object = UIButton()
-		return object
-	}()
+lazy var button1 : UIButton = {
+	let object = UIButton()
+	return object
+}()
 
-	lazy var button2 : UIButton = {
-		let object = UIButton()
-		return object
-	}()
+lazy var button2 : UIButton = {
+	let object = UIButton()
+	return object
+}()
  ```
  
 ![](https://github.com/ame017/AMEGetterMaker/blob/master/intro/swiftIntro.gif?raw=true)
