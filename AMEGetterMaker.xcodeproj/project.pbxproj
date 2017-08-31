@@ -11,8 +11,6 @@
 		91685CC01F56827500F53EE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685CBF1F56827500F53EE1 /* main.m */; };
 		91685CC21F56827500F53EE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91685CC11F56827500F53EE1 /* Assets.xcassets */; };
 		91685CC51F56827500F53EE1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91685CC31F56827500F53EE1 /* MainMenu.xib */; };
-		91685CD01F56827500F53EE1 /* AMEGetterMakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685CCF1F56827500F53EE1 /* AMEGetterMakerTests.m */; };
-		91685CDB1F56827500F53EE1 /* AMEGetterMakerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685CDA1F56827500F53EE1 /* AMEGetterMakerUITests.m */; };
 		91685CEF1F5682C400F53EE1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91685CEE1F5682C400F53EE1 /* Cocoa.framework */; };
 		91685CF51F5682C400F53EE1 /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685CF41F5682C400F53EE1 /* SourceEditorExtension.m */; };
 		91685CF81F5682C400F53EE1 /* SourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685CF71F5682C400F53EE1 /* SourceEditorCommand.m */; };
@@ -68,11 +66,7 @@
 		91685CC41F56827500F53EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		91685CC61F56827500F53EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91685CCB1F56827500F53EE1 /* AMEGetterMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMEGetterMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		91685CCF1F56827500F53EE1 /* AMEGetterMakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMEGetterMakerTests.m; sourceTree = "<group>"; };
-		91685CD11F56827500F53EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91685CD61F56827500F53EE1 /* AMEGetterMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMEGetterMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		91685CDA1F56827500F53EE1 /* AMEGetterMakerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMEGetterMakerUITests.m; sourceTree = "<group>"; };
-		91685CDC1F56827500F53EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91685CEC1F5682C400F53EE1 /* GetterMaker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GetterMaker.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		91685CEE1F5682C400F53EE1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		91685CF21F5682C400F53EE1 /* GetterMaker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GetterMaker.entitlements; sourceTree = "<group>"; };
@@ -124,8 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				91685CBA1F56827500F53EE1 /* AMEGetterMaker */,
-				91685CCE1F56827500F53EE1 /* AMEGetterMakerTests */,
-				91685CD91F56827500F53EE1 /* AMEGetterMakerUITests */,
 				91685CF01F5682C400F53EE1 /* GetterMaker */,
 				91685CED1F5682C400F53EE1 /* Frameworks */,
 				91685CB91F56827500F53EE1 /* Products */,
@@ -162,24 +154,6 @@
 				91685CBF1F56827500F53EE1 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		91685CCE1F56827500F53EE1 /* AMEGetterMakerTests */ = {
-			isa = PBXGroup;
-			children = (
-				91685CCF1F56827500F53EE1 /* AMEGetterMakerTests.m */,
-				91685CD11F56827500F53EE1 /* Info.plist */,
-			);
-			path = AMEGetterMakerTests;
-			sourceTree = "<group>";
-		};
-		91685CD91F56827500F53EE1 /* AMEGetterMakerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				91685CDA1F56827500F53EE1 /* AMEGetterMakerUITests.m */,
-				91685CDC1F56827500F53EE1 /* Info.plist */,
-			);
-			path = AMEGetterMakerUITests;
 			sourceTree = "<group>";
 		};
 		91685CED1F5682C400F53EE1 /* Frameworks */ = {
@@ -399,7 +373,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91685CD01F56827500F53EE1 /* AMEGetterMakerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,7 +380,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91685CDB1F56827500F53EE1 /* AMEGetterMakerUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
