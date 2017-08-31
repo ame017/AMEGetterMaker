@@ -1,21 +1,21 @@
 # AMEGetterMaker
-A lazyload getter maker without resign<br>
+一个无需resign你的Xcode的懒加载插件<br>
 ![](https://github.com/ame017/AMEGetterMaker/blob/master/intro/introduce.png?raw=true)
 
 
-##### ![cn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png) Chinese (Simplified): [中文说明](README_chs.md)
 
-## Version update
+## 版本更新记录
 * 1.1.0
-  <br>Add support for swift(test function)
+  <br>添加支持swift(测试中)
 * 1.0.1
-  <br>Ignore IBOutlet
+  <br>无视关键词 IBOutlet
 
-## What is this?
-Every time you may use lazyload.However, apple do not provide the method to quickly make getter.
-So this plug-in may solve your problem.
+## 关于本扩展
+在写代码的时候,您可能会经常用到懒加载.<br>
+不幸的是,苹果并没有提供快速生成懒加载的方法.<br>
+安装这个扩展将会解决这个问题.<br>
 
-e.g.
+例如:
 ```
 //无视xib
 @property (weak, nonatomic) IBOutlet xibSubView *subView;
@@ -66,10 +66,10 @@ e.g.
 
 ![](https://github.com/ame017/AMEGetterMaker/blob/master/intro/usage.gif?raw=true)
 
-## To use in swift
-<br>Now support var to lazy var.
+## 在swift中使用
+<br>目前支持将var转换成lazy var.
 
-e.g.
+例如:
 ```
 var button : UIButton!
 var button1 : UIButton = UIButton()
@@ -95,22 +95,22 @@ lazy var button2 : UIButton = {
  
 ![](https://github.com/ame017/AMEGetterMaker/blob/master/intro/swiftIntro.gif?raw=true)
 
-## Installation
+## 安装方法
 #### Xcode8.0+
-1.Download the project and run it in Xcode.<br>
-2.Enable this plug-in in setting<br>
+1.下载本项目并在您的Xcode中运行.<br>
+2.在系统偏好设置-扩展中打开本插件(如图)<br>
 ![](https://github.com/ame017/AMEGetterMaker/blob/master/intro/setting.png?raw=true)<br>
-3.You can Bind shortcuts in Xcode setting (shift + G)<br>
+3.你可以自己设置一个快捷键(推荐shift + G)<br>
 ![](https://github.com/ame017/AMEGetterMaker/blob/master/intro/binding.png?raw=true)<br>
 
 #### Xcode7.0
-You can use this plug-in -------> [getterMake-Xcode](https://github.com/ame017/getterMake-Xcode)
+请使用这个插件 -------> [getterMake-Xcode](https://github.com/ame017/getterMake-Xcode)
 <br>
 <br>
 
-## Trouble Shooting
-If your Xcode is 8.0+.<br>
-Please install macOS Sierra (version 10.12) if your macOS is 10.11.<br>
+## 一些问题的说明
+如果您的Xcode版本是 8.0+.<br>
+如果您的macOS是10.11,请安装macOS Sierra (version 10.12)<br>
 
-## Special thanks to
-[hackxhj](https://github.com/hackxhj) Give me a lot of inspiration to finish this plug-in
+## 感谢
+[hackxhj](https://github.com/hackxhj) 感谢这位大佬的项目给了我很多灵感来制作这个插件
