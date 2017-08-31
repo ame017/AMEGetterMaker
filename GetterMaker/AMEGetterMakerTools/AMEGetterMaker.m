@@ -95,6 +95,7 @@ static AMEGetterMaker * _ame_getter_maker;
                 }
                 //找距离startline最近的相同行(因为行号会变)
                 NSInteger currentLine = [self findCurrentLine:self.invocation.buffer.lines selectionStartLine:startLine currentString:string];
+                //清除原行 添加懒加载代码
                 self.invocation.buffer.lines[currentLine] = @"";
                 [self.invocation.buffer.lines insertObject:getterResult atIndex:currentLine];
             }
