@@ -18,6 +18,7 @@
 		91685CF81F5682C400F53EE1 /* SourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685CF71F5682C400F53EE1 /* SourceEditorCommand.m */; };
 		91685CFC1F5682C400F53EE1 /* GetterMaker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 91685CEC1F5682C400F53EE1 /* GetterMaker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		91685D041F56875A00F53EE1 /* AMEGetterMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 91685D031F56875A00F53EE1 /* AMEGetterMaker.m */; };
+		91B502541F57C0EE0082073C /* NSString+AMEGetterMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B502531F57C0EE0082073C /* NSString+AMEGetterMaker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,8 @@
 		91685CF91F5682C400F53EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91685D021F56875A00F53EE1 /* AMEGetterMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMEGetterMaker.h; sourceTree = "<group>"; };
 		91685D031F56875A00F53EE1 /* AMEGetterMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMEGetterMaker.m; sourceTree = "<group>"; };
+		91B502521F57C0EE0082073C /* NSString+AMEGetterMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AMEGetterMaker.h"; sourceTree = "<group>"; };
+		91B502531F57C0EE0082073C /* NSString+AMEGetterMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AMEGetterMaker.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +217,8 @@
 			children = (
 				91685D021F56875A00F53EE1 /* AMEGetterMaker.h */,
 				91685D031F56875A00F53EE1 /* AMEGetterMaker.m */,
+				91B502521F57C0EE0082073C /* NSString+AMEGetterMaker.h */,
+				91B502531F57C0EE0082073C /* NSString+AMEGetterMaker.m */,
 			);
 			path = AMEGetterMakerTools;
 			sourceTree = "<group>";
@@ -411,6 +416,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91685CF51F5682C400F53EE1 /* SourceEditorExtension.m in Sources */,
+				91B502541F57C0EE0082073C /* NSString+AMEGetterMaker.m in Sources */,
 				91685CF81F5682C400F53EE1 /* SourceEditorCommand.m in Sources */,
 				91685D041F56875A00F53EE1 /* AMEGetterMaker.m in Sources */,
 			);

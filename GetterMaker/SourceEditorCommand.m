@@ -17,7 +17,7 @@
     NSLog(@"%@",invocation);
     
     if ([invocation.commandIdentifier hasSuffix:@"SourceEditorCommand"]){
-        [AMEGetterMaker makeGetter:invocation];
+        [[AMEGetterMaker shardMaker]makeGetter:invocation];
     }
     completionHandler(nil);
 }
