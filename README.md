@@ -2,7 +2,7 @@
 A lazyload getter maker without resign<br>
 ![](https://github.com/ame017/AMEGetterMaker/blob/master/intro/introduce.png?raw=true)
 
-Now support Objective-c and swift
+
 
 ## Version update
 * 1.1.0
