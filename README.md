@@ -2,6 +2,12 @@
 A lazyload getter maker without resign<br>
 ![](https://github.com/ame017/AMEGetterMaker/blob/master/intro/introduce.png?raw=true)
 
+## Version update
+* 1.1.0
+  <br>Add support for swift(test function)
+* 1.0.1
+  <br>Ignore IBOutlet
+
 ## What is this?
 Every time you may use lazyload.However, apple do not provide the method to quickly make getter.
 So this plug-in may solve your problem.
@@ -57,7 +63,36 @@ e.g.
 
 ![](https://github.com/ame017/AMEGetterMaker/blob/master/intro/usage.gif?raw=true)
 
-## To use
+## To use in swift
+<br>Now support var to lazy var.
+
+e.g.
+```
+var button : UIButton!
+var button1 : UIButton = UIButton()
+var button2 = UIButton()
+```
+↓↓↓
+```
+	lazy var button : UIButton = {
+		let object = UIButton()
+		return object
+	}()
+
+	lazy var button1 : UIButton = {
+		let object = UIButton()
+		return object
+	}()
+
+	lazy var button2 : UIButton = {
+		let object = UIButton()
+		return object
+	}()
+ ```
+ 
+![](https://github.com/ame017/AMEGetterMaker/blob/master/intro/swiftIntro.gif?raw=true)
+
+## Installation
 #### Xcode8.0+
 1.Download the project and run it in Xcode.<br>
 2.Enable this plug-in in setting<br>
