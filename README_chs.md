@@ -1,5 +1,5 @@
 # AMEGetterMaker
-一个无需resign你的Xcode的懒加载插件<br>
+一个无需resign Xcode的懒加载插件<br>
 ![](https://github.com/ame017/AMEGetterMaker/blob/master/intro/introduce.png?raw=true)
 
 
@@ -92,7 +92,7 @@ lazy var button2 : UIButton = {
 	return object
 }()
  ```
- 
+
 ![](https://github.com/ame017/AMEGetterMaker/blob/master/intro/swift-2.gif?raw=true)
 
 ## 安装方法
