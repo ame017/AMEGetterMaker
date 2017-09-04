@@ -64,7 +64,7 @@
 }
 ```
 
-![](https://github.com/ame017/AMEGetterMaker/blob/master/intro/usage.gif?raw=true)
+![](https://github.com/ame017/AMEGetterMaker/blob/master/intro/objc-2.gif?raw=true)
 
 ## 在swift中使用
 <br>目前支持将var转换成lazy var.
@@ -93,7 +93,7 @@ lazy var button2 : UIButton = {
 }()
  ```
  
-![](https://github.com/ame017/AMEGetterMaker/blob/master/intro/swiftIntro.gif?raw=true)
+![](https://github.com/ame017/AMEGetterMaker/blob/master/intro/swift-2.gif?raw=true)
 
 ## 安装方法
 #### Xcode8.0+
