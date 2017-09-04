@@ -64,7 +64,7 @@ e.g.
 }
 ```
 
-![](https://github.com/ame017/AMEGetterMaker/blob/master/intro/usage.gif?raw=true)
+![](https://github.com/ame017/AMEGetterMaker/blob/master/intro/objc-2.gif?raw=true)
 
 ## To use in swift
 <br>Now support var to lazy var.
@@ -93,7 +93,7 @@ lazy var button2 : UIButton = {
 }()
  ```
  
-![](https://github.com/ame017/AMEGetterMaker/blob/master/intro/swiftIntro.gif?raw=true)
+![](https://github.com/ame017/AMEGetterMaker/blob/master/intro/swift-2.gif?raw=true)
 
 ## Installation
 #### Xcode8.0+
