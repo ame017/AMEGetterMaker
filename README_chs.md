@@ -104,7 +104,7 @@ lazy var button2 : UIButton = {
 ![](https://github.com/ame017/AMEGetterMaker/blob/master/intro/binding.png?raw=true)<br>
 
 #### Xcode7.0
-请使用这个插件 -------> [getterMake-Xcode](https://github.com/ame017/getterMake-Xcode)
+请使用这个插件(仅支持Objc) -------> [getterMake-Xcode](https://github.com/ame017/getterMake-Xcode)
 <br>
 <br>
 
