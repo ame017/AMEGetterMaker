@@ -6,6 +6,9 @@ A lazyload getter maker without resign<br>
 ##### ![cn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png) Chinese (Simplified): [中文说明](README_chs.md)
 
 ## Version update
+* 1.1.1
+ <br>Add support for type restriction
+ <br>Class<ChildClass *> *
 * 1.1.0
   <br>Add support for swift(test function)
 * 1.0.1
