@@ -10,14 +10,26 @@
 
 @interface NSString (AMEGetterMaker)
 
-/**
- 取两个字符串中间的字符串
 
- @param string1 字符串左
- @param string2 字符串右
- @return 返回中间的字符串
+/**
+ 获取字符串(首尾)
+
+ @param string1 字符串1
+ @param string2 字符串2
+ @return 返回获取到的字符串
  */
 - (NSString *)getStringWithOutSpaceBetweenString1:(NSString *)string1 string2:(NSString *)string2;
+
+/**
+ 获取字符串
+
+ @param string1 字符串1
+ @param options1 字符串1设置
+ @param string2 字符串2
+ @param options2 字符串2设置
+ @return 返回获取到的字符串
+ */
+- (NSString *)getStringWithOutSpaceBetweenString1:(NSString *)string1 options1:(NSStringCompareOptions)options1 string2:(NSString *)string2 options2:(NSStringCompareOptions)options2;
 
 /**
  判断字符串是否有某个字符串

@@ -106,14 +106,23 @@ static AMEGetterMaker * _ame_getter_maker;
 //输出的字符串_objc
 - (NSString*)objc_formatGetter:(NSString*)sourceStr{
     NSString *myResult;
+    //@property (nonatomic, strong) NSArray<TJSDestinationModel *> * dataArray
     //类名
-    NSString * className = [sourceStr getStringWithOutSpaceBetweenString1:@")" string2:@"*"];
+    NSString * className = [sourceStr getStringWithOutSpaceBetweenString1:@")" options1:0 string2:@"*" options2:NSBackwardsSearch];
     NSLog(@"className--->%@",className);
     if ([className isEqualToString:@""]) {
         return @"";
     }
+    NSString * childClass = @"";
+    if ([className hasSubString:@"<"] && [className hasSubString:@">"]) {
+        childClass = [NSString stringWithFormat:@"<%@>",[className getStringWithOutSpaceBetweenString1:@"<" options1:0 string2:@">" options2:NSBackwardsSearch]];
+        className = [className stringByReplacingOccurrencesOfString:childClass withString:@""];
+        childClass = [childClass stringByReplacingOccurrencesOfString:@"*" withString:@" *"];
+    }
+    NSLog(@"childClass---->%@",childClass);
+    NSLog(@"resetClassName--->%@",className);
     //属性名
-    NSString * uName = [sourceStr getStringWithOutSpaceBetweenString1:@"*" string2:@";"];
+    NSString * uName = [sourceStr getStringWithOutSpaceBetweenString1:@"*" options1:NSBackwardsSearch string2:@";" options2:NSBackwardsSearch];
     if ([uName isEqualToString:@""]) {
         return @"";
     }
@@ -122,7 +131,7 @@ static AMEGetterMaker * _ame_getter_maker;
     NSString *underLineName=[NSString stringWithFormat:@"_%@",uName];
     
     
-    NSString *line1 = [NSString stringWithFormat:@"\n- (%@ *)%@{",className,uName];
+    NSString *line1 = [NSString stringWithFormat:@"\n- (%@%@ *)%@{",className,childClass,uName];
     NSString *line2 = [NSString stringWithFormat:@"\n    if(!%@){",underLineName];
     NSString *line3 = [NSString stringWithFormat:@"\n        %@ = ({",underLineName];
     NSString *line4 = [NSString stringWithFormat:@"\n            %@ * object = [[%@ alloc]init];",className,className];
