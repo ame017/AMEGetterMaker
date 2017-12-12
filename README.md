@@ -100,7 +100,7 @@ lazy var button2 : UIButton = {
 
 ## Installation
 #### Xcode8.0+
-1.Download the project and run it in Xcode.<br>
+1.![Download](https://github.com/ame017/AMEGetterMaker/blob/master/AMEGetterMaker.zip)<br>
 2.Enable this plug-in in setting<br>
 ![](https://github.com/ame017/AMEGetterMaker/blob/master/intro/setting.png?raw=true)<br>
 3.You can Bind shortcuts in Xcode setting (shift + G)<br>
