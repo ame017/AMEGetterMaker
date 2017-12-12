@@ -100,7 +100,7 @@ lazy var button2 : UIButton = {
 
 ## 安装方法
 #### Xcode8.0+
-1.下载本项目并在您的Xcode中运行.<br>
+1.[下载本应用](product/AMEGetterMaker.zip)<br>
 2.在系统偏好设置-扩展中打开本插件(如图)<br>
 ![](https://github.com/ame017/AMEGetterMaker/blob/master/intro/setting.png?raw=true)<br>
 3.你可以自己设置一个快捷键(推荐shift + G)<br>
