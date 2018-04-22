@@ -117,3 +117,7 @@ Please install macOS Sierra (version 10.12) if your macOS is 10.11.<br>
 
 ## Special thanks to
 [hackxhj](https://github.com/hackxhj) Give me a lot of inspiration to finish this plug-in
+
+## Other project recommendations
+[AMECategoryMaker](https://github.com/ame017/AMECategoryMaker) <br>
+A category property maker without resigin
