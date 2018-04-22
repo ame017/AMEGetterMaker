@@ -117,3 +117,7 @@ lazy var button2 : UIButton = {
 
 ## 感谢
 [hackxhj](https://github.com/hackxhj) 感谢这位大佬的项目给了我很多灵感来制作这个插件
+
+## 其他项目推荐
+[AMECategoryMaker](https://github.com/ame017/AMECategoryMaker) <br>
+自动为category的property生成getter和setter
